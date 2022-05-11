@@ -735,6 +735,23 @@ img.octagon {
   -webkit-column-count: 4;
   column-count: 4;
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  border-radius: 10px;
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: none;
+  background: #333;
+}
 /*-----------------------------------------------------------------------------------*/
 /*	03. NAVBAR
 /*-----------------------------------------------------------------------------------*/
